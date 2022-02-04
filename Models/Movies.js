@@ -1,8 +1,8 @@
 var mongoose = require('mongoose');
 
-var movieSchema = mongoose.Schema({
+var meetSchema = mongoose.Schema({
     name:String,
     rating:Number
 })
 
-module.exports = mongoose.model("movies",movieSchema)
+module.exports = mongoose.model("meet",meetSchema)
